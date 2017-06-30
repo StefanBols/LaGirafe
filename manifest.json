@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "LaGirafe",
+  "description": "Auto-login into Umbraco backoffice. This extension inserts login infomation into an Umbraco backoffice login form and submits the form.",
+  "homepage_url": "https://stefanbols.dk",
+  "version": "1.1",
+  "browser_action": {
+    "default_title": "LaGirafe"
+  },
+  "options_page": "options.html",
+
+
+  "background": {
+    "scripts": [
+      "load.js"
+    ],
+    "persistent": true
+  },
+
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "activeTab",
+    "storage"
+  ],
+
+  "icons": { "16": "icon-16.png",
+           "48": "icon-48.png",
+          "128": "icon-128.png",
+          "300": "icon.png" }
+}
