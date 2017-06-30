@@ -3,7 +3,6 @@
 
   "name": "LaGirafe",
   "description": "LaGirafe is a tool for developers, it will store your login for a Umbraco backoffice user and with just a click, LaGirafe - magic.",
-  /*"description": "LaGirafe is a tool for developers or webmaster, which will store your login infomation for a Umbraco backoffice user and just with just a click, you'll automatically be logged into Umbraco backoffice. This extension is meant for developers which have standardized login infomation for the websites they develop. Setup LaGirafe in the extension settings and go to any Umbraco backoffice login page, click LaGirafe - Puff, magic.",*/
   "homepage_url": "https://github.com/StefanBols/LaGirafe",
   "version": "1.3",
   "browser_action": {
