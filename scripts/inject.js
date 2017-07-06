@@ -17,6 +17,8 @@
             inputUsr.value = usr;
             inputPwd.value = pwd;
             btnSubmit.click();
+        } else {
+            alert("LaGirafe doesn't have any credentials saved.\n\nPlease go to LaGirafe options page and set your credentials.");
         }
     });
 })();
