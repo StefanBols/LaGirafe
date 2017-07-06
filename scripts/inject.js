@@ -7,8 +7,8 @@
         var pwd = items.password;
 
         if (usr !== "" && pwd !== "") {
-            var inputUsr = document.querySelectorAll('input[name*=name]')[0];
-            var inputPwd = document.querySelectorAll('input[name*=pass]')[0];
+            var inputUsr = document.querySelectorAll('input[name*=name i]')[0];
+            var inputPwd = document.querySelectorAll('input[name*=pass i]')[0];
 
             var btnSubmit;
             btnSubmit = document.querySelectorAll('input[type=submit]')[0];
